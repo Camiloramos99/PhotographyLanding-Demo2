@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+
+/* Text sizes */
+  --text-title-large: 4rem;
+  --text-title-medium: 2.5rem;
+  --text-subtitle: 1.5rem;
+  --text-normal: 1rem;
+  --text-small: 0.875rem;
+}
+.photographer-nav-name {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: var(--text-normal);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+p, body {
+    font-family: 'DM Serif Text', serif;
+    font-size: var(--text-normal);
+    line-height: 1.6;
+}
+
+header {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.container1 {
+    display: flex;
+    padding-top: 24px;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+.hero-section {
+    position: relative;
+    background-image: url(../assets/images/artwork.webp);
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 75%;
+    margin: auto;
+    padding-top: 33vh;
+    padding-bottom: 32vh;
+    color: white;
+    z-index: 2;
+}
+
+.column-1 p { 
+    font-size: var(--text-normal);
+    font-weight: 800;
+}
+
+.column-1 h1:nth-child(2) {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 90px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    line-height: 90px;
+    margin: .29em 0 .12em 0;
+    letter-spacing: 0.1em;
+
+}
+
+.btn-cta-mywork {
+    color: white;
+    background-color: transparent;
+    border: solid white;
+    border-width: 1.8px;
+    padding: 13px 20px;
+    margin-top: 14px;
+    font-weight: 700;
+    border-radius: 0;
+    background-clip: border-box;
+    text-transform: uppercase;
+    width: 165px;
+    font-size: var(--text-small);
+}
+
+.btn-cta-mywork:hover {
+    color: black;
+    background-color: white;
+
+}
+
+.column-2 {
+    display: grid;
+    grid-template-rows: 10% 10% 10% 10%;
+    grid-template-columns: max-content;
+    margin-top: 63px;
+    justify-content: end;
+    gap: 1rem;
+}
+
+.column-2 svg {
+    width: 100%;
+    height: 100%;
+    opacity: 70%;
+    cursor: pointer;
+}

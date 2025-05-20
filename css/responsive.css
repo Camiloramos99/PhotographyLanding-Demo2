@@ -1,0 +1,57 @@
+@media screen and (max-width: 768px) {
+    header {
+        padding-top: 10px;
+    }
+    nav {
+        display: none;
+    }
+    .container1 {
+        width: 90%;
+    }
+    .hero-section{
+        height: 100svh;
+        background-image: url(../assets/images/artWorkMobile.webp);
+    }
+    .hero-content {
+        width: 90%;
+        padding-top: 37vh;
+    }
+    .column-1 {
+        width: 100%;
+        overflow: hidden;
+    }
+    .column-1 p:nth-child(1) {
+        font-weight: 700;
+    }
+    .column-1 h1:nth-child(2) {
+        line-height: 90px;
+        margin: .3em 0 .1em 0;
+        font-size: 65px;
+        letter-spacing: 8px;
+    }
+    .column-1 p:nth-child(3) {
+        font-weight: 700;
+    }
+    .column-2 {
+        display: none;
+    }
+    .btn-cta-mywork {
+        width: 100%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container1 {
+        width: 90%;
+    }
+    
+    .hero-section{
+        height: 100svh;
+        background-image: url(../assets/images/artWorkMobile.webp);
+    }
+
+    .hero-content {
+        width: 90%;
+        padding-top: 37vh;
+    }
+}
