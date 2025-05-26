@@ -179,8 +179,12 @@ nav a {
   height: 100%;
 }
 
-.aboutMe-photo-container img {
+.aboutMe-photo-container figure {
     width: 60%;
+}
+
+.aboutMe-photo-container img {
+    width: 100%;
     max-width: 500px;
     height: auto;
 }

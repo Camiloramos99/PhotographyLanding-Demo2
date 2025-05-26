@@ -65,15 +65,22 @@
         height: 80%;
     }
 
+    .aboutMe-photo-container figure {
+        width: 90%;
+    }
+
     .aboutMe-photo-container img {
         width: 100%;
     }
     .photo-name {
         width: 100%;
-        bottom: 100px;
-        right: 100px;
+        bottom: 60px;
+        right: 0;
+        padding: 10%;
     }
 }
+
+
 
 @media (min-width: 769px) and (max-width: 1024px) {
     .container1 {
@@ -89,4 +96,41 @@
         width: 90%;
         padding-top: 37vh;
     }
+
+/* ABOUT ME SECTION tablet */
+
+    .aboutMe-section {
+        height: 90svh;
+    }
+
+    .content-wrapper {
+        width: 90%;    
+    }    
+
+    .aboutMe-text-container {
+        height: 70%;
+    }
+
+    .aboutMe-photo-container {
+        height: 70%;
+        align-items: start;
+        justify-content: end;
+    }
+
+    .aboutMe-photo-container figure {
+        width: 90%;
+     
+    }
+
+    .aboutMe-photo-container img {
+        width: 100%;
+        max-height: 100%;
+        height: auto;
+        margin-top: 2em;
+    }
+    .photo-name {
+        width: auto;
+        bottom: 305px;
+        right: 18px;
+    }    
 }
