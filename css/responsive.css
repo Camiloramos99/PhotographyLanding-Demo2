@@ -80,7 +80,50 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .gallery-section {
+        height: 100svh;
+    }
 
+    .gallery-wrapper-section {
+        display: flex;
+        height: auto;
+        align-items: end;
+        margin-bottom: 20%;
+        width: 90%;
+    }
+
+    .slider {
+        aspect-ratio: 2/3;
+        width: 100%;
+        height: auto;
+        overflow-x: auto;
+        overflow-y: hidden;
+        scroll-snap-type: x mandatory;
+        justify-self: center;
+        gap: 0;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none; /* Firefox */
+    }
+
+    .slider::-webkit-scrollbar {
+        display: none;
+    }
+
+    .slider img {
+        flex: none;
+        height: auto;
+        width: 100%;
+        left: 0;
+        position: sticky;
+        border-radius: 5px;
+        scroll-snap-align: center;
+    }
+
+    .slider img:hover {
+        width: 100%;
+    }
+}
 
 @media (min-width: 769px) and (max-width: 1024px) {
     .container1 {
@@ -97,7 +140,7 @@
         padding-top: 37vh;
     }
 
-/* ABOUT ME SECTION tablet */
+/* ABOUT ME SECTION*/
 
     .aboutMe-section {
         height: 90svh;
@@ -133,4 +176,11 @@
         bottom: 305px;
         right: 18px;
     }    
+
+/* GALLERY SECTION*/
+
+    .gallery-wrapper-section {
+        width: 70%; 
+        margin-bottom: 5%;
+    }
 }
