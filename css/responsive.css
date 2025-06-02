@@ -82,7 +82,8 @@
 
 @media (max-width: 1024px) {
     .gallery-section {
-        height: 100svh;
+        height: 110svh;
+        align-items: center;
     }
 
     .gallery-wrapper-section {
@@ -182,5 +183,15 @@
     .gallery-wrapper-section {
         width: 70%; 
         margin-bottom: 5%;
+        align-items: center;
+    }
+    .title-container {
+        margin-bottom: 13%;
+    }
+    .title-container h2 {
+        font-size: 2em;
+    }
+    .title-container h3 {
+        font-size: 6em;
     }
 }
