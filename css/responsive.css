@@ -78,6 +78,18 @@
         right: 0;
         padding: 10%;
     }
+
+/* CONTACT ME SECTION */
+
+    .form-contact-container {
+        width: 90%;
+    }
+    .form-contact {
+        width: 100%;
+    }
+    .form-contact h5 {
+        margin-bottom: 3rem;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -193,5 +205,19 @@
     }
     .title-container h3 {
         font-size: 6em;
+    }
+
+/* CONTACT ME SECTION */
+    .contactMe-section{
+        height: 60svh;
+    }
+    .form-contact-container {
+        width: 90%;
+    }
+    .form-contact {
+        width: 60%;
+    }
+    .form-contact h5 {
+        margin-bottom: 3rem;
     }
 }
