@@ -9,7 +9,7 @@
         width: 90%;
     }
     .hero-section{
-        height: 100svh;
+        height: 110svh;
         background-image: url(../assets/images/artWorkMobile.webp);
     }
     .hero-content {
@@ -153,6 +153,23 @@
         padding-top: 37vh;
     }
 
+/* GALLERY SECTION*/
+
+    .gallery-wrapper-section {
+        width: 70%; 
+        margin-bottom: 5%;
+        align-items: center;
+    }
+    .title-container {
+        margin-bottom: 13%;
+    }
+    .title-container h2 {
+        font-size: 2em;
+    }
+    .title-container h3 {
+        font-size: 6em;
+    }
+
 /* ABOUT ME SECTION*/
 
     .aboutMe-section {
@@ -189,23 +206,6 @@
         bottom: 305px;
         right: 18px;
     }    
-
-/* GALLERY SECTION*/
-
-    .gallery-wrapper-section {
-        width: 70%; 
-        margin-bottom: 5%;
-        align-items: center;
-    }
-    .title-container {
-        margin-bottom: 13%;
-    }
-    .title-container h2 {
-        font-size: 2em;
-    }
-    .title-container h3 {
-        font-size: 6em;
-    }
 
 /* CONTACT ME SECTION */
     .contactMe-section{
