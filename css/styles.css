@@ -14,7 +14,7 @@
   --text-normal: 1rem;
   --text-small: 0.875rem;
 
-/* Palette colors */    
+/* Palette colors */
   --primary-color: #1A1712;
   --secondary-color: #1A1107;
   --tertiary-color: #998B72;
@@ -85,7 +85,7 @@ nav a {
     z-index: 2;
 }
 
-.column-1 p { 
+.column-1 p {
     font-size: var(--text-normal);
     font-weight: 800;
 }
@@ -200,7 +200,7 @@ nav a {
     width: 60%;
     font-family: 'Pacifico', cursive;
     font-size: 24px;
-    font-weight: normal; 
+    font-weight: normal;
     text-align: right;
     bottom: 150px;
     right: 100px;
@@ -265,4 +265,59 @@ nav a {
 
 .slider img:hover {
   flex: 5;
+}
+
+/*ContactMe*/
+
+.contactMe-section{
+    display: grid;
+    justify-items: center;
+    justify-self: center;
+    background-color: var(--primary-color);
+    height: 100vh;
+    color: white;
+    width: 100%;
+
+}
+.form-contact-container {
+    display: grid;
+    justify-items: center;
+    justify-self: center;
+	width: 75%;
+    background-color: var(--primary-color);
+}
+.form-contact {
+    background-color: var(--primary-color);
+    width: 40%;
+}
+.contactMe-title {
+	margin-top: 100px;
+}
+#user-message, #user-email, #user-name-input {
+	background: var(--primary-color);
+	position: sticky;
+	left: 1.25rem;
+	border: 2px solid white;
+    top: 0;
+    color: var(--tertiary-color);
+}
+#user-message {
+	height: 8rem;
+    overflow-wrap: break-word;
+	word-break: break-word;
+}
+.form-label {
+	background-color: var(--primary-color);
+	position: relative;
+    z-index: 2;
+    left: 1.5rem;
+	padding: 0.25rem;
+}
+.form-control {
+	margin-top: -23px;
+}
+button.btn-primary {
+    background-color: transparent;
+    color: var(--tertiary-color);
+    border: solid 2px var(--tertiary-color);
 }
