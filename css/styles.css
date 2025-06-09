@@ -83,7 +83,7 @@ nav a:hover {
     grid-template-columns: 1fr auto;
     width: 75%;
     margin: auto;
-    padding-top: 33vh;
+    padding-top: 27vh;
     padding-bottom: 32vh;
     color: var(--text-color);
     z-index: 2;
@@ -277,28 +277,39 @@ nav a:hover {
     display: grid;
     justify-items: center;
     justify-self: center;
-    background-color: var(--secondary-color);
+    background-image: url(../assets/images/contactMeImg.webp);
     height: 100vh;
     color: white;
     width: 100%;
-
+    position: relative;
+}
+.contactMe-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
 }
 .form-contact-container {
     display: grid;
     justify-items: center;
     justify-self: center;
 	width: 75%;
-    background-color: var(--secondary-color);
+    z-index: 2;
 }
 .form-contact {
-    background-color: var(--secondary-color);
     width: 40%;
 }
 .contactMe-title {
-	margin-top: 100px;
+	margin-top: 80px;
+}
+.form-contact h5 {
+    margin-bottom: 1rem !important;
 }
 #user-message, #user-email, #user-name-input {
-	background: var(--secondary-color);
 	position: sticky;
 	left: 1.25rem;
 	border: 2px solid white;
@@ -311,17 +322,36 @@ nav a:hover {
 	word-break: break-word;
 }
 .form-label {
-	background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    background-color: var(--tertiary-color);
 	position: relative;
     z-index: 2;
-    left: 1.5rem;
-	padding: 0.25rem;
+    left: .7rem;
+	padding: 0.1rem;
+    border-radius: 10px;
+    width: 5rem;
+    justify-content: center;
+    margin-bottom: 1rem !important;
 }
 .form-control {
 	margin-top: -23px;
+    background-color: transparent !important;
 }
 button.btn-primary {
     background-color: transparent;
     color: var(--tertiary-color);
     border: solid 2px var(--tertiary-color);
+}
+button.btn-primary:hover {
+    background-color: var(--tertiary-color);
+    border-color: var(--tertiary-color);
+}
+button.btn-primary:focus,
+button.btn-primary:active {
+    background-color: var(--tertiary-color) !important;
+    color: var(--text-color) !important;
+    border-color: var(--tertiary-color) !important;
+    outline: none; 
+    box-shadow: none; 
 }
