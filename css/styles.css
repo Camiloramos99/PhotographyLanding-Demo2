@@ -229,68 +229,82 @@ nav a:hover {
 /* ABOUT ME SECTION */
 
 .aboutMe-section {
-    display: flex;
-    justify-content: center;
-    background-color: var(--primary-color);
-    width: 100%;
-    height: 120vh;
-}
-
-.content-wrapper {
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    width: 75%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.aboutMe-text-container {
-    grid-column: 1;
-}
-
-.aboutMe-text-container h2 {
-    letter-spacing: 2px;
-    margin-bottom: 16px;
-    color: var(--text-color);
-}
-
-.aboutMe-text-container p {
-    color: var(--text-color);
-    font-size: 14px;
-    line-height: 32px;
-}
-
-.aboutMe-photo-container {
-  position: relative;
-  grid-column: 2;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  background-color: var(--secondary-color);
+}
+
+.content-wrapper {
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  max-width: 1400px;
+}
+
+/* TEXT SIDE - LEFT */
+.aboutMe-text-container {
+  width: 50%;
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-y:hidden
+}
+
+.aboutMe-text-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.aboutMe-subtitle {
+    color: var(--tertiary-color) !important;
+    font-weight: 500;
+}
+.aboutMe-text-container p {
+  font-size: var(--text-normal);
+  line-height: 1.7;
+  color: white;
+}
+
+.aboutMe-photo-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .aboutMe-photo-container figure {
-    width: 60%;
+    position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
 }
 
 .aboutMe-photo-container img {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
+  height: 100%;
+  max-height: 100%;
+  width: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 
 .photo-name {
-    position: absolute;
-    color: var(--tertiary-color);
-    width: 60%;
-    font-family: 'Pacifico', cursive;
-    font-size: 24px;
-    font-weight: normal;
-    text-align: right;
-    bottom: 150px;
-    right: 100px;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-style: italic;
+  color: #666;
+  text-align: center;
+  color: var(--tertiary-color);
 }
 
 /*ContactMe*/

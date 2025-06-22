@@ -84,7 +84,7 @@
 
 /* ABOUT ME SECTION */
 
-    .aboutMe-section {
+    /* .aboutMe-section {
         height: 200vh;
     }
 
@@ -120,7 +120,7 @@
         bottom: 60px;
         right: 0;
         padding: 10%;
-    }
+    } */
 
 /* CONTACT ME SECTION */
 
@@ -187,7 +187,7 @@
     .slider img:hover {
         width: 100%;
     }
-    
+
 /* CONTACT ME SECTION */
 
     .contactMe-title {
@@ -274,4 +274,29 @@
     .form-contact h5 {
     margin-bottom: .5rem !important; 
     }
+}
+
+
+@media screen and (max-width: 900px) {
+  .content-wrapper {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .aboutMe-text-container {
+    max-width: 100%;
+  }
+
+  .aboutMe-photo-container {
+    margin-top: 2rem;
+  }
+
+  .aboutMe-text-container h2 {
+    font-size: 2rem;
+  }
+
+  .aboutMe-text-container p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
 }
