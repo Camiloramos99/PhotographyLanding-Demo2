@@ -128,7 +128,7 @@
         width: 90%;
     }
     .form-contact {
-        width: 100%;
+        width: 90%;
     }
     .form-contact h5 {
         margin-bottom: 3rem;
@@ -186,6 +186,15 @@
 
     .slider img:hover {
         width: 100%;
+    }
+    
+/* CONTACT ME SECTION */
+
+    .contactMe-title {
+        margin-top: 100px;
+    }
+    .btn-primary {
+        margin-bottom: 100px;
     }
 }
 @media screen and (max-width: 480px) { 
@@ -253,9 +262,6 @@
     }    
 
 /* CONTACT ME SECTION */
-    .contactMe-section{
-        height: 60svh;
-    }
     .form-contact-container {
         width: 90%;
     }
@@ -264,5 +270,8 @@
     }
     .form-contact h5 {
         margin-bottom: 3rem;
+    }
+    .form-contact h5 {
+    margin-bottom: .5rem !important; 
     }
 }
