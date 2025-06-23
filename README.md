@@ -50,7 +50,7 @@ open index.html
 
 📸 Mock Up
 ### 🖥️ Mock UP View in devices
-![Mock Up View](https://raw.githubusercontent.com/Camiloramos99/PhotographyLanding-Demo2/refs/heads/main/assets/images/MockUp.webp)
+![Mock Up View](https://raw.githubusercontent.com/Camiloramos99/PhotographyLanding-Demo2/main/assets/images/MockUp.webp)
 
 ⚠️ License
 This project is for demonstration and educational purposes only.
@@ -110,8 +110,7 @@ open index.html
 
 📸 Mock Up
 ### 🖥️ Vista de Mock UP en dispositivos
-![Mock Up View](https://raw.githubusercontent.com/Camiloramos99/PhotographyLanding-Demo2/refs/heads/main/assets/images/MockUp.webp)
-
+![Mock Up View](https://raw.githubusercontent.com/Camiloramos99/PhotographyLanding-Demo2/main/assets/images/MockUp.webp)
 
 ⚠️ Licencia
 Este proyecto es solo para fines demostrativos y educativos.
