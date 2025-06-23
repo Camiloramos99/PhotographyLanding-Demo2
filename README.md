@@ -46,7 +46,8 @@ To run the project locally:
 ```bash
 git clone https://github.com/Camiloramos99/PhotographyLanding-Demo2
 cd PhotographerLanding
-open index.html
+open index.html 
+```
 
 📸 Mock Up
 ### 🖥️ Mock UP View in devices
@@ -107,7 +108,7 @@ Para correr el proyecto en local:
 git clone https://github.com/Camiloramos99/PhotographyLanding-Demo2
 cd PhotographerLanding
 open index.html
-
+```
 📸 Mock Up
 ### 🖥️ Vista de Mock UP en dispositivos
 ![Mock Up View](https://raw.githubusercontent.com/Camiloramos99/PhotographyLanding-Demo2/main/assets/images/MockUp.webp)
