@@ -406,6 +406,7 @@ footer p{
     font-size: 0.8em;
 	margin: 0%;
 	color: var(--text-color);
+    text-align: center;
 }
 .developer-contact {
     text-decoration: none;
