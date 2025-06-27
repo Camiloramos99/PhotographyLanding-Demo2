@@ -85,11 +85,12 @@
 /* ABOUT ME SECTION */
 
     .aboutMe-section {
-        height: 200svh;
+        height: auto;
+        padding: 40px 20px;
     }
     .content-wrapper {
         flex-direction: column;
-        height: 180svh;
+        height: auto;
         max-width: 460px;
         text-align: center;
         align-items: center;
@@ -100,7 +101,7 @@
     }
     .aboutMe-text-container h2 {
         font-size: 1.5rem;
-        margin-bottom: 1.5rem;
+        margin-bottom: 2rem;
     }
 
     .aboutMe-subtitle {
@@ -112,7 +113,18 @@
     }
     .aboutMe-photo-container {
         width: 95%;
-        height: 35%;
+        height: auto;
+    }
+    .aboutMe-photo-container figure {
+        width: 100%;
+        max-width: 300px; 
+        height: auto;
+    }
+
+    .aboutMe-photo-container img {
+        width: 100%;
+        height: auto;
+        max-height: 300px; 
     }
 
 /* CONTACT ME SECTION */
