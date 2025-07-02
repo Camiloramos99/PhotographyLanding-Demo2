@@ -144,7 +144,7 @@
     /* GALLERY SECTION */
 
     .gallery-section {
-        height: 110svh;
+        min-height: 110svh;
         align-items: center;
     }
 
@@ -155,11 +155,11 @@
     }
 
     .title-container h2 {
-        font-size: medium;
+        font-size: larger;
     }    
 
     .title-container h3 {
-        font-size: larger;
+        font-size: xx-large;
     }
 
     .slider {
