@@ -260,6 +260,10 @@
   }
 }
 @media (min-width: 900px) and (max-width: 1248px) {
+/* HERO SECTION*/
+    .column-1 p {
+        margin-bottom: 0px;
+    }
 
 /* ABOUT ME SECTION*/
     .aboutMe-section {
@@ -267,12 +271,20 @@
     }
 }
 @media (min-width: 1440px) and (max-width: 3840px) {
+/* HERO SECTION*/
     .hero-content-container {
         align-items: center;
+    }
+    .column-1 p {
+        font-size: 2.5vh;
+        margin-bottom: 0px;
     }
     .column-1 h1:nth-child(2) {
         font-size: 15vh;
         line-height: 15vh;
+    }
+    .btn-cta-mywork {
+        width: 255px;
     }
 
     /* CONTACT ME SECTION */
