@@ -216,11 +216,6 @@
     .aboutMe-text-container {
         padding: 0 1rem;
         width: 60%;
-    }
-
-    .aboutMe-photo-container img {
-        max-height: 60%;
-        height: auto;
     } 
 
     .photo-name {

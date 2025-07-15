@@ -281,7 +281,9 @@ nav a:hover {
 
 .aboutMe-photo-container figure {
   position: relative;
-  height: 100%;
+  aspect-ratio: 4 / 5;
+  width: 100%;
+  max-width: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -289,9 +291,8 @@ nav a:hover {
 }
 
 .aboutMe-photo-container img {
-  height: 100%;
-  max-height: 100%;
-  width: auto;
+  height: auto;
+  width: 100%;
   border-radius: 12px;
   object-fit: cover;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
