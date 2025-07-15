@@ -266,3 +266,18 @@
         height: 120svh;
     }
 }
+@media (min-width: 1440px) and (max-width: 3840px) {
+    .hero-content-container {
+        align-items: center;
+    }
+    .column-1 h1:nth-child(2) {
+        font-size: 15vh;
+        line-height: 15vh;
+    }
+
+    /* CONTACT ME SECTION */
+
+    .form-contact {
+        width: 30%;
+    }
+}
